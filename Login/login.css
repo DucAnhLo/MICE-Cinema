@@ -8,6 +8,11 @@
 html {
     font-family: 'DM Sans', sans-serif;
 }
+/* Common class */
+
+.yellow {
+    color: #FED530;
+}
 
 body{
     background-color: #3d3d3d;
@@ -35,32 +40,88 @@ body{
     height: 741px;
     border-radius: 40px;
     color: #cecece;
-    position: absolute;
+    position: relative;
     left: 766px;
     top: 79px;
 
-
 }
 
-.sign-in-container h3 {
-    position: absolute;
-    width: 193px;
-    height: 27px;
-    left: 809px;
-    top: 123px;
+/* CONTAINER HEADER */
+.sign-in-container .container-header {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
 
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
+.sign-in-container .container-header h3{
     font-size: 21px;
+    font-weight: 400;
     line-height: 27px;
-
     color: #000000;
-    z-index: 1;
-
+    height: 27px;
+    flex: 1;
 }
 
 
 
+.container-header .user-option p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #8d8d8d;
+}
+
+.container-header .user-option .yellow {
+    color: #FED530;
+}
+
+/* END OF CONTAINER HEADER */
+
+/* SIGN IN HEADING */
+
+.sign-in-container h1 {
+    font-size: 55px;
+    line-height: 72px;
+    font-weight: 500;
+    color: #000;
+    padding: 2rem;
+}
+
+/* END OF SIGN IN HEADING */
+
+/* INPUT SECTION */
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.input-section input {
+    height: 57px;
+    width: 451px;
+    border: 1px solid #4285F4;
+    box-sizing: border-box;
+    border-radius: 9px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
 
 
+
+label{
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+/* END OF INPUT SECTION */
+
+.sign-in-container .forgot {
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #4285F4;
+    position: relative;
+    left: 24rem;
+}
