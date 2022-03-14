@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background-color: #3d3d3d;
+}
+
+.logo {
+    position: absolute;
+    width: 203px;
+    height: 21px;
+    left: 66px;
+    top: 43px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+}
+
+.sign-in-container {
+    background-color: #cecece;
+    width: 539px;
+    height: 741px;
+    border-radius: 40px;
+    color: #cecece;
+    position: absolute;
+    left: 766px;
+    top: 79px;
+
+
+}
+
+.sign-in-container h3 {
+    position: absolute;
+    width: 193px;
+    height: 27px;
+    left: 809px;
+    top: 123px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+
+    color: #000000;
+    z-index: 1;
+
+}
+
+
+
+
+
