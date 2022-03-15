@@ -125,3 +125,20 @@ label{
     position: relative;
     left: 24rem;
 }
+
+button {
+    background: #FED530;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    width: 236px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    border: none;
+    color: #000000;
+    position: relative;
+    left: 18rem;
+    margin-top: 45px;
+    margin-right: 44px;
+}

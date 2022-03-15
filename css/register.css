@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+/* Common class */
+
+.yellow {
+    color: #FED530;
+}
+
+body{
+    background-color: #3d3d3d;
+}
+
+.logo {
+    position: absolute;
+    width: 203px;
+    height: 21px;
+    left: 66px;
+    top: 43px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+}
+
+.sign-in-container {
+    background-color: #cecece;
+    width: 539px;
+    height: 741px;
+    border-radius: 40px;
+    color: #cecece;
+    position: relative;
+    left: 766px;
+    top: 79px;
+
+}
+
+/* CONTAINER HEADER */
+.sign-in-container .container-header {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.sign-in-container .container-header h3{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #000000;
+    height: 27px;
+    flex: 1;
+}
+
+
+
+.container-header .user-option p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #8d8d8d;
+}
+
+.container-header .user-option .yellow {
+    color: #FED530;
+}
+
+/* END OF CONTAINER HEADER */
+
+/* SIGN IN HEADING */
+
+.sign-in-container h1 {
+    font-size: 55px;
+    line-height: 72px;
+    font-weight: 500;
+    color: #000;
+    padding: 1rem;
+}
+
+/* END OF SIGN IN HEADING */
+
+/* INPUT SECTION */
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.input-section input {
+    height: 57px;
+    width: 451px;
+    border: 1px solid #4285F4;
+    box-sizing: border-box;
+    border-radius: 9px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+label{
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+/* END OF INPUT SECTION */
+
+.sign-in-container .forgot {
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #4285F4;
+    position: relative;
+    left: 24rem;
+}
+
+button {
+    background: #FED530;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    width: 236px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    border: none;
+    color: #000000;
+    position: relative;
+    left: 18rem;
+    margin-top: 20px;
+    margin-right: 44px;
+}
