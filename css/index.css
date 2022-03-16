@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+ body{
+    /* background-color: #000; */
+ }
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    flex: 1;
+    color: #fff;
+    width: 152px;
+    height: 48px;
+
+    /* Heading/Bold/Heading 4 - 32px */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    padding: 1rem;
+    margin: 1rem 4rem;
+}
+
+.navigation-bar {
+    flex: 1;
+}
+
+.nav-links {
+   margin: 2rem ;
+}
+
+.user-section{
+    flex: 1;
+    margin: 2rem;
+}
