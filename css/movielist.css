@@ -94,13 +94,16 @@ body {
 
 .adding-movies form {
     display: flex;
-    flex-direction: column;
     margin: 0 3rem;
+    flex-direction: column;
+}
+
+.adding-movies form .movies-list {
+    background-color: red;
 }
 
 .adding-movies form label {
     padding: 1rem 0;
-
 }
 
 .adding-movies form input {
